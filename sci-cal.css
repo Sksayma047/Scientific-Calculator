@@ -1,0 +1,120 @@
+body{
+    background-color: #fff;
+}
+.cal-container{
+    background: #222;
+    width: 420px;
+    height: 690px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 150px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.display{
+    background-color: black;
+    height: 55px;
+    width: 390px;
+    position: relative;
+    display: inline-block;
+    top: 18px;
+    border-radius: 5px;
+}
+#screen{
+   position: relative;
+   height: 55px;
+   top: 2.spx;
+   width: 390px;
+    border: none;
+   border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0.2);
+    background: transparent;
+   background: #bccd95;
+   text-align: right;
+   font-size: 2.4em;
+   color: black;
+   
+}
+
+
+.keys{
+    position: relative;
+    top: 40px;
+}
+
+.btn{
+    color: black;
+    background: lightsteelblue;
+    cursor: pointer;
+    width: 74.5px;
+    height: 40px;
+    margin: 4px 4px 4px 6px;
+    font-size: 1.3em;
+    text-align: center;
+    border: none;
+    border-top: 2px solid transparent;
+    padding: 3px;
+}
+.btn-sign{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    margin: 10px;
+}
+.btn-sign:active{
+    border-bottom: 2px solid #413b3b;
+    border-top: 2px solid #161515;
+}
+.btn-num{
+    background-color: #161515;
+    color: #fff;
+    font-size: 1.3;
+    border-radius: 6px;
+    border-bottom: 2px solid #3b3737;
+    border-top: 2px solid black;
+
+}
+.btn-num:active{
+    border-top: 2px solid #3b3737;
+    border-bottom: 2px solid black;
+
+}
+.btn-red{
+    background-color: red;
+    padding: 4px;
+    color: black;
+    font-size: 1.9;
+    border-radius: 4px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid red;
+    font-weight: 600;
+
+}
+.btn-red:active{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid red;
+}
+.btn-opera{
+    background: #111;
+    color:#fff;
+    padding: 4px;
+    font-size: 1.5;
+    border-radius: 5px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #111;
+
+}
+.btn-opera:active{
+    border-bottom: 2px solid #111;
+    border-top: 2px solid #000;
+
+}
